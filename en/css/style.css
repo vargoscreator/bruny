@@ -650,7 +650,7 @@ header{
     font-size: 30px;
     line-height: 41px;
     color: #F2F2F2;
-    max-width: 787px;
+    max-width: 815px;
     margin-bottom: 42px;
 }
 .main__title span{
@@ -860,7 +860,7 @@ header{
     font-size: 22px;
     line-height: 24px;
     color: #F2F2F2;
-    max-width: 385px;
+    max-width: 500px;
 }
 .feedback__close{
     width: 50px;
