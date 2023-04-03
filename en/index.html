@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png">
+    <title>Bruny</title>
+    <script src="https://unpkg.com/imask"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="body">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a class="header__logo-images" href="index.html">
+                        <img src="images/LOGO.png" alt="">
+                    </a>
+                </div>
+
+                <div class="header__menu">
+                    <a class="header__phone" href="tel:+380999999999">+38 (099) 999 99 99</a>
+                    <p class="header__feedback">Order a call?</p>
+                </div>
+            </div>    
+        </div>               
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="main__content">
+                <div class="main__block">
+                    <h1 class="main__title">Cars from the USA, Canada, Europe, and Norway with savings of <span>up to -40% off the market price</span> in Ukraine</h1>
+                    <h3 class="main__descr">Calculate your <span>reliable</span> and <span>verified</span> car option</h3>
+                    <div class="main__btn">
+                        <h3 class="main__btn-link">Find a car</h3>
+                    </div>
+                    <h3 class="main__descr">Provide answers to 4 questions and receive <span>CONSULTATION</span> and <span>BONUS</span> after completing the test</h3>
+                    <div class="main__social">
+                        <a href="https://www.instagram.com" target="_blank" class="main__social-item">
+                            <div class="main__social-link">
+                                <img src="images/main/Inst.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://t.me" target="_blank" class="main__social-item">
+                            <div class="main__social-link">
+                                <img src="images/main/tg.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" class="main__social-item">
+                            <div class="main__social-link">
+                                <img src="images/main/fb.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="main__img">
+                        <img src="images/main/car.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__inner">
+                <img src="images/pigeons.png" alt="">
+                <p>We donate a portion of the proceeds from sales to the Armed Forces of Ukraine (ZSU)</p>
+            </div>
+        </div>
+    
+
+        <div class="feedback">
+            <div class="container">
+                <div class="feedback__inner" id="feedback__inner">
+                    <h3 class="feedback__title">Provide your contact information and we will call you back</h3>
+                    <form class="feedback__form" id="formone">
+                        <label>Name:</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="For example: Stepan Bandera" autocomplete="off" required>
+                        <label>Phone:</label>
+                        <input type="tel" id="phone" class="phone" name="phone" pattern="^\+38\(0\d{2}\)-\d{3}-\d{2}-\d{2}$" placeholder="For example: 099 99 99 99" maxlength="20" autocomplete="off" required>
+                        <button type="submit"><span>Get car selection</span></button>
+                    </form>
+                    <div class="feedback__close"><span></span></div>
+                    <div class="feedback__send" id="feedback__send">
+                        <h3 class="feedback__send-title">Application sent, Thank you!</h3>
+                        <div class="feedback__send-img">
+                            <img src="images/modal/modal__send.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback__bg"></div>
+        </div>           
+            
+            
+            
+        <div class="modal">
+            <div class="modal__content">
+                <div class="container">
+                    <div class="modal__header">
+                        <h3 class="modal__title">Take a quick car selection test</h3>
+                        <div class="modal__close"><span></span></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="modal__inner">
+                        <div class="modal__type show">
+                            <div class="modal__type-header">
+                                <h3 class="modal__header-name">Select body type:</h3>
+                                <div class="modal__step"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+                            </div>
+                            <div class="modal__block">
+                                <div class="modal__type-item">
+                                    <div class="modal__type-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Sedan</div>
+                                    </div>
+                                    <img src="images/modal/type/1.png" alt="">
+                                </div>
+                                <div class="modal__type-item">
+                                    <div class="modal__type-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Hatchback</div>
+                                    </div>
+                                    <img src="images/modal/type/2.png" alt="">
+                                </div>
+                                <div class="modal__type-item">
+                                    <div class="modal__type-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Estate/Station Wagon</div>
+                                    </div>
+                                    <img src="images/modal/type/3.png" alt="">
+                                </div>
+                                <div class="modal__type-item">
+                                    <div class="modal__type-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Crossover</div>
+                                    </div>
+                                    <img src="images/modal/type/4.png" alt="">
+                                </div>
+                                <div class="modal__type-item">
+                                    <div class="modal__type-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">SUV</div>
+                                    </div>
+                                    <img src="images/modal/type/5.png" alt="">
+                                </div>
+                                <div class="modal__type-item">
+                                    <div class="modal__type-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Minivan</div>
+                                    </div>
+                                    <img src="images/modal/type/6.png" alt="">
+                                </div>
+                                <div class="modal__type-item">
+                                    <div class="modal__type-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Undecided</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal__footer">
+                                <div class="next unactive">Next</div>
+                            </div>                 
+                        </div>
+                        <div class="modal__fuel">
+                            <div class="modal__fuel-header">
+                                <div class="modal__header-name">Choose fuel type:</div>
+                                <div class="modal__step"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+                            </div>
+                            <div class="modal__block">
+                                <div class="modal__fuel-item">
+                                    <div class="modal__fuel-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Petrol</div>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="images/modal/fuel/1.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal__fuel-item">
+                                    <div class="modal__fuel-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Diesel</div>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="images/modal/fuel/2.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal__fuel-item">
+                                    <div class="modal__fuel-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Gas</div>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="images/modal/fuel/3.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal__fuel-item">
+                                    <div class="modal__fuel-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Hybrid</div>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="images/modal/fuel/4.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal__fuel-item">
+                                    <div class="modal__fuel-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Electro</div>
+                                    </div>
+                                    <div class="icon">
+                                        <img src="images/modal/fuel/5.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal__fuel-item">
+                                    <div class="modal__fuel-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Undecided</div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="modal__footer">
+                                <div class="prev">Back</div>
+                                <div class="next unactive">Next</div>
+                            </div> 
+                        </div>
+
+                        <div class="modal__year">
+                            <div class="modal__year-header">
+                                <h3 class="modal__header-name">Choose the age of the car:</h3>
+                                <div class="modal__step"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+                            </div>
+                            <div class="modal__block">
+                                <div class="modal__year-item">
+                                    <div class="modal__year-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">before 2012</div>
+                                    </div>
+                                </div>
+                                <div class="modal__year-item">
+                                    <div class="modal__year-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">2012 - 2015</div>
+                                    </div>
+                                </div>
+                                <div class="modal__year-item">
+                                    <div class="modal__year-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">2015 - 2018</div>
+                                    </div>
+                                </div>
+                                <div class="modal__year-item">
+                                    <div class="modal__year-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">2018 - 2020</div>
+                                    </div>
+                                </div>
+                                <div class="modal__year-item">
+                                    <div class="modal__year-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">2020 - 2022</div>
+                                    </div>
+                                </div>
+                                <div class="modal__year-item">
+                                    <div class="modal__year-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Undecided</div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="modal__footer">
+                                <div class="prev">Back</div>
+                                <div class="next unactive">Next</div>
+                            </div>  
+                        </div>
+
+                        <div class="modal__budget">
+                            <div class="modal__budget-header">
+                                <h3 class="modal__header-name">Budget for buying a car:</h3>
+                                <div class="modal__step"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+                            </div>
+                            <div class="modal__block">
+                                <div class="modal__budget-item">
+                                    <div class="modal__budget-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">up to $9,000</div>
+                                    </div>
+                                </div>
+                                <div class="modal__budget-item">
+                                    <div class="modal__budget-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">9 000 $ - 12 000 $</div>
+                                    </div>
+                                </div>
+                                <div class="modal__budget-item">
+                                    <div class="modal__budget-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">12 000 $ - 15 000 $</div>
+                                    </div>
+                                </div>
+                                <div class="modal__budget-item">
+                                    <div class="modal__budget-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">15 000 $ - 20 000 $</div>
+                                    </div>
+                                </div>
+                                <div class="modal__budget-item">
+                                    <div class="modal__budget-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">20 000 $ - 30 000 $</div>
+                                    </div>
+                                </div>
+                                <div class="modal__budget-item">
+                                    <div class="modal__budget-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">30,000 $ and above</div>
+
+                                    </div>
+                                </div>
+                            </div>   
+                            <div class="modal__footer">
+                                <div class="prev">Back</div>
+                                <div class="next unactive">Next</div>
+                            </div>
+                        </div>
+
+                        <div class="modal__gift">
+                            <div class="modal__gift-header">
+                                <h3 class="modal__header-name">Choose a gift:</h3>
+                            </div>
+                            <div class="modal__block">
+                                <div class="modal__gift-item">
+                                    <div class="modal__gift-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Interior cleaning</div>
+                                    </div>
+                                </div>
+                                <div class="modal__gift-item">
+                                    <div class="modal__gift-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Body polishing</div>
+                                    </div>
+                                </div>
+                                <div class="modal__gift-item">
+                                    <div class="modal__gift-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Replacement of filters and fluids</div>
+                                    </div>
+                                </div>
+                                <div class="modal__gift-item">
+                                    <div class="modal__gift-name">
+                                        <div class="check__box">
+                                            <img src="images/modal/check.svg" alt="">
+                                        </div>
+                                        <div class="modal__name">Discount on repair services at our service station</div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="modal__footer">
+                                <div class="prev">Back</div>
+                                <div class="next unactive">Next</div>
+                            </div>  
+                        </div>
+
+
+                        <div class="modal__form">
+                            <div class="modal__block">
+                                <div class="modal__feedback" id="modal__feedback">
+                                    <h3 class="modal__form--title">Provide your contact information so that we can receive the results of the selection</h3>
+                                    <form class="form__feedback" id="formtwo">
+                                        <label>Name:</label>
+                                        <input type="text" id="first_name-modal" name="first_name" placeholder="For example: Stepan Bandera" autocomplete="off" required>
+                                        <label>Phone:</label>
+                                        <input type="tel" id="phones" class="phone" name="phone" pattern="^\+38\(0\d{2}\)-\d{3}-\d{2}-\d{2}$" placeholder="For example: +38(099)-999-99-99" maxlength="20" autocomplete="off" required>
+                                        <input type="hidden" name="modal__type" value="[none]">
+                                        <input type="hidden" name="modal__fuel" value="[none]">
+                                        <input type="hidden" name="modal__year" value="[none]">
+                                        <input type="hidden" name="modal__budget" value="[none]">
+                                        <input type="hidden" name="modal__gift" value="[none]">
+                                        <button type="submit"><span>Get car selection</span></button>
+                                    </form>
+                                </div> 
+                                <div class="modal__send" id="modal__send">
+                                    <h3 class="modal__send-title">The application has been sent, thank you!</h3>
+                                    <div class="modal__send-img">
+                                        <img src="images/modal/modal__send.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
